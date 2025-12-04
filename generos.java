@@ -1,6 +1,6 @@
 public class generos extends genero {
     public String nome;
-    public int numero;
+   
     
     // Atributos base para o personagem (adicionados para que o código seja funcional)
     public int forca;
