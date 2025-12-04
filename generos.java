@@ -10,6 +10,13 @@ public class generos extends genero {
     public int destreza;
     public int resistencia;
     public int constituicao;
+    public int tenacidade;
+    public int sabedoria;
+    public int carisma;
+    public int sorte;
+    public int vida;
+    
+
     
     public generos(String nome, String Feminino, String Masculino, String SemGenero, String Tribal, String Experimento, String Orfao) {
         super(Feminino, Masculino, SemGenero, Tribal, Experimento, Orfao);
@@ -22,6 +29,11 @@ public class generos extends genero {
         this.destreza = 0;
         this.resistencia = 0;
         this.constituicao = 0;
+        this.tenacidade = 0;
+        this.sabedoria = 0;
+        this.carisma = 0;
+        this.sorte = 0;
+        this.vida = 100; 
     }
 
     public void selecionarGenero() {
